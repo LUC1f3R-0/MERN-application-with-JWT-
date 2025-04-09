@@ -31,7 +31,7 @@ export default defineConfig(({ mode }) => {
     server: {
       // Set the host address from the environment variable
       // This is the network interface that Vite will listen on
-      host: (env.VITE_FRONTEND_HOST),
+      host: env.VITE_FRONTEND_HOST,
       
       // Set the port from the environment variable
       // parseInt converts the string from the .env file to a number
